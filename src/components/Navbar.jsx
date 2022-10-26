@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 // import "../css/Navbar.css";
 import { gsap } from "gsap";
 import { useEffect } from "react";
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
   useEffect(() => {
     const mainNav = document.querySelector(".main-nav");
     const hamburgerMenu = document.querySelector(".hamburger-menu");
@@ -33,15 +34,18 @@ function Navbar() {
       { duration: 2, delay: 1.3, yPercent: -50, opacity: 1 }
     );
   }, []);
+  function buttonClicked() {
+    setMenuOpen(!menuOpen);
+  }
   return (
     <>
       <div className="NavParent">
         <header>
-          <nav className="main-nav">
+          <nav className={`${menuOpen ? "main-nav open" : "main-nav"}`}>
             <div className="logo">
               <Link to="/">Saanvi Hotel</Link>
             </div>
-            <div className="hamburger-menu">
+            <div onClick={buttonClicked} className="hamburger-menu">
               <span className="bar"></span>
             </div>
             <ul className="nav-list">
