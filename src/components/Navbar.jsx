@@ -6,6 +6,7 @@ import { useEffect } from "react";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const disFlex = menuOpen ? "flex" : "none";
   useEffect(() => {
     const mainNav = document.querySelector(".main-nav");
     const hamburgerMenu = document.querySelector(".hamburger-menu");
@@ -37,52 +38,53 @@ function Navbar() {
   function buttonClicked() {
     setMenuOpen(!menuOpen);
   }
+  // style={{display:disFlex}}
   return (
     <>
-      <div className="NavParent">
-        <header>
-          <nav className={`${menuOpen ? "main-nav open" : "main-nav"}`}>
-            <div className="logo">
-              <Link to="/">Saanvi Hotel</Link>
-            </div>
-            <div onClick={buttonClicked} className="hamburger-menu">
-              <span className="bar"></span>
-            </div>
-            <ul className="nav-list">
-              <li className="nav-item">
-                <Link to="/" className="nav-link">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="#" className="nav-link">
-                  Tours
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/Gallery" className="nav-link">
-                  Gallery
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link href="#" className="nav-link">
-                  Pricing
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link href="#" className="nav-link">
-                  Locations
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link href="#" className="nav-link">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </nav>
-        </header>
-      </div>
+      {/* <div className="NavParent"> */}
+      <header>
+        <nav className={`${menuOpen ? "main-nav open" : "main-nav"}`}>
+          <div className="logo">
+            <Link to="/">Saanvi Hotel</Link>
+          </div>
+          <div onClick={buttonClicked} className="hamburger-menu">
+            <span className="bar"></span>
+          </div>
+          <ul className="nav-list">
+            <li className="nav-item">
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="#" className="nav-link">
+                Tours
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/Gallery" className="nav-link">
+                Gallery
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="#" className="nav-link">
+                Pricing
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="#" className="nav-link">
+                Locations
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="#" className="nav-link">
+                Contact
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      {/* </div> */}
     </>
   );
 }
