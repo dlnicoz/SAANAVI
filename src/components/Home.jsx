@@ -15,9 +15,6 @@ function Home() {
           </div>
         </div>
       </section>
-      <section>
-        <div className="clipped-img"></div>
-      </section>
     </>
   );
 }

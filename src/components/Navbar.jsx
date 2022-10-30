@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// import "../css/Navbar.css";
+import "../css/Navbar.css";
 import { gsap } from "gsap";
 import { useEffect } from "react";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const disFlex = menuOpen ? "flex" : "none";
+  // const disFlex = menuOpen ? "flex" : "none";
   useEffect(() => {
     const mainNav = document.querySelector(".main-nav");
     const hamburgerMenu = document.querySelector(".hamburger-menu");
