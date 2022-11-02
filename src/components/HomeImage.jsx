@@ -1,57 +1,70 @@
-import React from 'react';
-// import "../css/HomeImage.css";
+import React ,{useEffect ,Link} from 'react';
+import "../css/HomeImage.css";
+import $ from 'jquery'
 
 
 
 function HomeImage() {
-    return (<>
-   <h1>hi this is home image</h1> 
-   <section className="first">
-  <div className="outer">
-    <div className="inner">
-      <div className="bg one">
-        <h2 className="section-heading">Scroll down</h2>
-      </div>
-    </div>
-  </div>
 
-</section>
-<section className="second">
-  <div className="outer">
-    <div className="inner">
-      <div className="bg">
-        <h2 className="section-heading">Animated with GSAP</h2>
-      </div>
+useEffect(() => {
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 700);
+        return false;
+      }
+    }
+  });
+});
+
+
+}, [])
+
+    return (<>
+
+<div className="first-wrap">
+  <div className="first-div">
+    <p className="new-update">
+      Note: Click
+     
+      to see newer and easier parallax effect
+    </p>
+    <div className="first-inner-div">
+      <p>Start Scrolling</p>
+      
     </div>
   </div>
-</section>
-<section className="third">
-  <div className="outer">
-    <div className="inner">
-      <div className="bg">
-        <h2 className="section-heading">GreenSock</h2>
-      </div>
-    </div>
+</div>
+
+<div className="second-wrap">
+  <div className="second-div" id="anchor">
+    <p className="body-text">
+      <span className="line-separator"></span> Sample parallax with different background images
+      <span className="line-separator"></span>
+    </p>
   </div>
-</section>
-<section className="fourth">
-  <div className="outer">
-    <div className="inner">
-      <div className="bg">
-        <h2 className="section-heading">Animation platform</h2>
-      </div>
-    </div>
+  <div className="third-div">
   </div>
-</section>
-<section className="fifth">
-  <div className="outer">
-    <div className="inner">
-      <div className="bg">
-        <h2 className="section-heading">Keep scrolling</h2>
-      </div>
-    </div>
+</div>
+
+<div className="third-wrap">
+  <div className="fourth-div">
+    <p className="body-text">
+      <span className="line-separator"></span> Sample parallax with different background images
+      <span className="line-separator"></span>
+    </p>
   </div>
-</section>
+  <div className="fifth-div">
+  </div>
+</div>
+
+<a href="#" id="back-to-top" title="Back to top">&uarr;</a>
     </>)
     
 }
