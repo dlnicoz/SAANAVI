@@ -41,7 +41,6 @@ function Navbar() {
   // style={{display:disFlex}}
   return (
     <>
-      {/* <div className="NavParent"> */}
       <header>
         <nav className={`${menuOpen ? "main-nav open" : "main-nav"}`}>
           <div className="logo">
@@ -84,7 +83,6 @@ function Navbar() {
           </ul>
         </nav>
       </header>
-      {/* </div> */}
     </>
   );
 }
