@@ -35,7 +35,7 @@ body {
 .first-wrap {
   height: 100%;
   width: 100vw;
-  background: #ffffff url("https://images.unsplash.com/photo-1445251836269-d158eaa028a6?fit=crop&fm=jpg&h=950&q=80&w=1920") no-repeat fixed;
+  background: #ffffff url("https://images.unsplash.com/photo-1489914169085-9b54fdd8f2a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") no-repeat fixed;
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -43,7 +43,7 @@ body {
 .second-wrap {
   height: 100%;
   width: 100vw;
-  background: #ffffff url("https://images.unsplash.com/photo-1444090542259-0af8fa96557e?fit=crop&fm=jpg&h=950&q=80&w=1920") no-repeat fixed;
+  background: #ffffff url("https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80") no-repeat fixed;
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -51,7 +51,7 @@ body {
 .third-wrap {
   height: 100%;
   width: 100vw;
-  background: #ffffff url("https://images.unsplash.com/photo-1443827423664-eac70d49dd0d?fit=crop&fm=jpg&h=950&q=80&w=1920") no-repeat fixed;
+  background: #ffffff url("https://images.unsplash.com/photo-1475483768296-6163e08872a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") no-repeat fixed;
   background-size: cover;
   background-position: 50% 50%;
 }

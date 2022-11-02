@@ -1,4 +1,4 @@
-import React ,{useEffect ,Link} from 'react';
+import React ,{useEffect } from 'react';
 import "../css/HomeImage.css";
 import $ from 'jquery'
 
@@ -30,13 +30,8 @@ $(function() {
 
 <div className="first-wrap">
   <div className="first-div">
-    <p className="new-update">
-      Note: Click
-     
-      to see newer and easier parallax effect
-    </p>
     <div className="first-inner-div">
-      <p>Start Scrolling</p>
+      <p>Start Your Adventure</p>
       
     </div>
   </div>
@@ -45,7 +40,7 @@ $(function() {
 <div className="second-wrap">
   <div className="second-div" id="anchor">
     <p className="body-text">
-      <span className="line-separator"></span> Sample parallax with different background images
+      <span className="line-separator"></span>Shells sink, dreams float Life`s good on our boat
       <span className="line-separator"></span>
     </p>
   </div>
@@ -56,7 +51,7 @@ $(function() {
 <div className="third-wrap">
   <div className="fourth-div">
     <p className="body-text">
-      <span className="line-separator"></span> Sample parallax with different background images
+      <span className="line-separator"></span>Light a campfire and everyone’s a storyteller
       <span className="line-separator"></span>
     </p>
   </div>
