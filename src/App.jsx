@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Footer from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Booking from './components/Booking';
+import Rooms from './components/Rooms';
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
           <Route index path="/" element={<Home />} />
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Booking" element={<Booking />} />
+          <Route path="/Rooms" element={<Rooms />} />
         </Routes>
       </BrowserRouter>
       <Footer />
