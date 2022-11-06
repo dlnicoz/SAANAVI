@@ -7,8 +7,8 @@ function Footer() {
 
       <footer className="footer">
     <div className="footer__about">
-      <h1>Dheeraj Sahani</h1>
-      <h2>I&apos;am jr software engineer, works in full stack development</h2>
+      <p className="text-dheeraj">Dheeraj Sahani</p>
+      <p className="text-soft">I am jr engineer, works in full stack development</p>
     </div>
     <div className="footer__network">
       <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>

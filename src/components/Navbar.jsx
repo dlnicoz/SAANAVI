@@ -66,17 +66,17 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#" className="nav-link">
-                Pricing
+              <Link to="/Booking" className="nav-link">
+                Booking
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#" className="nav-link">
+              <Link to="#" className="nav-link">
                 Locations
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#" className="nav-link">
+              <Link to="#" className="nav-link">
                 Contact
               </Link>
             </li>

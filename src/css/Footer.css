@@ -1,10 +1,12 @@
 .footer {
     background-color: black;
-    margin: 0;
+    bottom: 0%;
+    width: 100%;
     padding: 25px 100px;
     display: flex;
     flex-flow: wrap;
     align-items: center;
+    
     justify-content: space-between;
   }
   .footer .footer__about {
@@ -42,6 +44,18 @@
     align-content: center;
     color: #9D9D9F;
     font-size: 1.5em;
+  }
+
+  .text-dheeraj{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+  }
+  .text-soft{
+    font-size: 1.2rem;
+    margin-top: 0.35em;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
   }
   
   @media only screen and (max-width: 900px) {

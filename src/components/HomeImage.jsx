@@ -1,37 +1,18 @@
-import React ,{useEffect } from 'react';
+import React from 'react';
 import "../css/HomeImage.css";
-import $ from 'jquery'
+
 
 
 
 function HomeImage() {
 
-useEffect(() => {
-
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 700);
-        return false;
-      }
-    }
-  });
-});
-
-
-}, [])
 
     return (<>
 
 <div className="first-wrap">
   <div className="first-div">
     <div className="first-inner-div">
-      <p>Start Your Adventure</p>
+      <p>Start Your Adventure now</p>
       
     </div>
   </div>
