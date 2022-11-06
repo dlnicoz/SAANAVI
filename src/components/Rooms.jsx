@@ -1,6 +1,15 @@
 import React from "react";
 import "../css/Rooms.css";
 function Rooms() {
+
+
+    const room1Ava = "Availaibility-- Booked till 11th Nov"
+    const room2Ava = "Availaibility-- Booked till 12th Dec"
+    const room3Ava = "Availaibility-- Available now"
+    const room4Ava = "Availaibility-- Available till 9th Nov"
+    const room5Ava = "Availaibility-- Booked till 15th Nov"
+    const room6Ava = "Availaibility-- Availabel after 9th Nov"
+
   return (
     <>
       <div className="Rooms">
@@ -18,7 +27,7 @@ function Rooms() {
                 <li><p className="card__text">
                   Type-- 12x15 ft | Full AC | Toilet
                 </p></li>
-                <li><p className="card__text">Availaibility-- Booked till 9<sup>th</sup> Nov</p></li>
+                <li><p className="card__text">{room1Ava}</p></li>
                 </ul>
                 <button className="card__btn">
                   Book Now <span>&rarr;</span>
@@ -39,7 +48,7 @@ function Rooms() {
                 <li><p className="card__text">
                   Type-- 12x15 ft | Full AC | Toilet
                 </p></li>
-                <li><p className="card__text">Availaibility-- Booked till 9<sup>th</sup> Nov</p></li>
+                <li><p className="card__text">{room2Ava}</p></li>
                 </ul>
                 <button className="card__btn">
                   Book Now <span>&rarr;</span>
@@ -60,7 +69,7 @@ function Rooms() {
                 <li><p className="card__text">
                   Type-- 12x15 ft | Full AC | Toilet
                 </p></li>
-                <li><p className="card__text">Availaibility-- Booked till 9<sup>th</sup> Nov</p></li>
+                <li><p className="card__text">{room3Ava}</p></li>
                 </ul>
                 <button className="card__btn">
                   Book Now <span>&rarr;</span>
@@ -81,7 +90,7 @@ function Rooms() {
                 <li><p className="card__text">
                   Type-- 12x15 ft | Full AC | Toilet
                 </p></li>
-                <li><p className="card__text">Availaibility-- Booked till 9<sup>th</sup> Nov</p></li>
+                <li><p className="card__text">{room4Ava}</p></li>
                 </ul>
                 <button className="card__btn">
                   Book Now <span>&rarr;</span>
@@ -102,7 +111,7 @@ function Rooms() {
                 <li><p className="card__text">
                   Type-- 12x15 ft | Full AC | Toilet
                 </p></li>
-                <li><p className="card__text">Availaibility-- Booked till 9<sup>th</sup> Nov</p></li>
+                <li><p className="card__text">{room5Ava}</p></li>
                 </ul>
                 <button className="card__btn">
                   Book Now <span>&rarr;</span>
@@ -123,7 +132,7 @@ function Rooms() {
                 <li><p className="card__text">
                   Type-- 12x15 ft | Full AC | Toilet
                 </p></li>
-                <li><p className="card__text">Availaibility-- Booked till 9<sup>th</sup> Nov</p></li>
+                <li><p className="card__text">{room6Ava}</p></li>
                 </ul>
                 <button className="card__btn">
                   Book Now <span>&rarr;</span>
