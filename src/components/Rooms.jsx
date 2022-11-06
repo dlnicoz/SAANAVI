@@ -1,20 +1,21 @@
 import React from "react";
 import "../css/Rooms.css";
+import { Link } from "react-router-dom";
+// import RoomsAdmin from "./RoomsAdmin";
 function Rooms() {
+  const room1Ava = "Availaibility-- Booked till 11th Nov";
+  const room2Ava = "Availaibility-- Booked till 12th Dec";
+  const room3Ava = "Availaibility-- Available now";
+  const room4Ava = "Availaibility-- Available till 9th Nov";
+  const room5Ava = "Availaibility-- Booked till 15th Nov";
+  const room6Ava = "Availaibility-- Availabel after 9th Nov";
 
-
-    const room1Ava = "Availaibility-- Booked till 11th Nov"
-    const room2Ava = "Availaibility-- Booked till 12th Dec"
-    const room3Ava = "Availaibility-- Available now"
-    const room4Ava = "Availaibility-- Available till 9th Nov"
-    const room5Ava = "Availaibility-- Booked till 15th Nov"
-    const room6Ava = "Availaibility-- Availabel after 9th Nov"
 
   return (
     <>
       <div className="Rooms">
         <div className="grid">
-        <div className="grid__item">
+          <div className="grid__item">
             <div className="card">
               <img
                 className="card__img"
@@ -24,14 +25,20 @@ function Rooms() {
               <div className="card__content">
                 <h1 className="card__header">Room 1</h1>
                 <ul>
-                <li><p className="card__text">
-                  Type-- 12x15 ft | Full AC | Toilet
-                </p></li>
-                <li><p className="card__text">{room1Ava}</p></li>
+                  <li>
+                    <p className="card__text">
+                      Type-- 12x15 ft | Full AC | Toilet
+                    </p>
+                  </li>
+                  <li>
+                    <p className="card__text">{room1Ava}</p>
+                  </li>
                 </ul>
-                <button className="card__btn">
-                  Book Now <span>&rarr;</span>
-                </button>
+                <Link to="/Contact" style={{ textDecoration: "none" }}>
+                  <button className="card__btn">
+                    Book Now <span>&rarr;</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -45,14 +52,20 @@ function Rooms() {
               <div className="card__content">
                 <h1 className="card__header">Room 2</h1>
                 <ul>
-                <li><p className="card__text">
-                  Type-- 12x15 ft | Full AC | Toilet
-                </p></li>
-                <li><p className="card__text">{room2Ava}</p></li>
+                  <li>
+                    <p className="card__text">
+                      Type-- 12x15 ft | Full AC | Toilet
+                    </p>
+                  </li>
+                  <li>
+                    <p className="card__text">{room2Ava}</p>
+                  </li>
                 </ul>
-                <button className="card__btn">
-                  Book Now <span>&rarr;</span>
-                </button>
+                <Link to="/Contact" style={{ textDecoration: "none" }}>
+                  <button className="card__btn">
+                    Book Now <span>&rarr;</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -66,14 +79,20 @@ function Rooms() {
               <div className="card__content">
                 <h1 className="card__header">Rooms 3</h1>
                 <ul>
-                <li><p className="card__text">
-                  Type-- 12x15 ft | Full AC | Toilet
-                </p></li>
-                <li><p className="card__text">{room3Ava}</p></li>
+                  <li>
+                    <p className="card__text">
+                      Type-- 12x15 ft | Full AC | Toilet
+                    </p>
+                  </li>
+                  <li>
+                    <p className="card__text">{room3Ava}</p>
+                  </li>
                 </ul>
-                <button className="card__btn">
-                  Book Now <span>&rarr;</span>
-                </button>
+                <Link to="/Contact" style={{ textDecoration: "none" }}>
+                  <button className="card__btn">
+                    Book Now <span>&rarr;</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -87,14 +106,20 @@ function Rooms() {
               <div className="card__content">
                 <h1 className="card__header">Room 4</h1>
                 <ul>
-                <li><p className="card__text">
-                  Type-- 12x15 ft | Full AC | Toilet
-                </p></li>
-                <li><p className="card__text">{room4Ava}</p></li>
+                  <li>
+                    <p className="card__text">
+                      Type-- 12x15 ft | Full AC | Toilet
+                    </p>
+                  </li>
+                  <li>
+                    <p className="card__text">{room4Ava}</p>
+                  </li>
                 </ul>
-                <button className="card__btn">
-                  Book Now <span>&rarr;</span>
-                </button>
+                <Link to="/Contact" style={{ textDecoration: "none" }}>
+                  <button className="card__btn">
+                    Book Now <span>&rarr;</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -108,14 +133,20 @@ function Rooms() {
               <div className="card__content">
                 <h1 className="card__header">Room 5</h1>
                 <ul>
-                <li><p className="card__text">
-                  Type-- 12x15 ft | Full AC | Toilet
-                </p></li>
-                <li><p className="card__text">{room5Ava}</p></li>
+                  <li>
+                    <p className="card__text">
+                      Type-- 12x15 ft | Full AC | Toilet
+                    </p>
+                  </li>
+                  <li>
+                    <p className="card__text">{room5Ava}</p>
+                  </li>
                 </ul>
-                <button className="card__btn">
-                  Book Now <span>&rarr;</span>
-                </button>
+                <Link to="/Contact" style={{ textDecoration: "none" }}>
+                  <button className="card__btn">
+                    Book Now <span>&rarr;</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -129,14 +160,20 @@ function Rooms() {
               <div className="card__content">
                 <h1 className="card__header">Room 6</h1>
                 <ul>
-                <li><p className="card__text">
-                  Type-- 12x15 ft | Full AC | Toilet
-                </p></li>
-                <li><p className="card__text">{room6Ava}</p></li>
+                  <li>
+                    <p className="card__text">
+                      Type-- 12x15 ft | Full AC | Toilet
+                    </p>
+                  </li>
+                  <li>
+                    <p className="card__text">{room6Ava}</p>
+                  </li>
                 </ul>
-                <button className="card__btn">
-                  Book Now <span>&rarr;</span>
-                </button>
+                <Link to="/Contact" style={{ textDecoration: "none" }}>
+                  <button className="card__btn">
+                    Book Now <span>&rarr;</span>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

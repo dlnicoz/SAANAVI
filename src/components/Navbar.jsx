@@ -65,11 +65,11 @@ function Navbar() {
                 Gallery
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/Booking" className="nav-link">
                 Booking
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/Rooms" className="nav-link">
                 Rooms
