@@ -5,6 +5,7 @@
 }
 
 
+
 html{
 
     font-size: 10px;
@@ -41,10 +42,16 @@ html{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 1px;
-    outline: 2px solid #eee;
-    padding: 1rem 2rem;
-    color: #eee;
+    /* outline: 2px solid #eee; */
+    padding: 1rem 1rem;
+    /* color: #eee; */
   }
+
+
+.slogo{
+  width: 16rem;
+  height:auto;
+}
   
   .hamburger-menu{
     height: 5rem;
@@ -57,7 +64,7 @@ html{
     align-items: center;
     justify-content: center;
     width: 5rem;
-    background: #eee;
+    background: #ffffff;
     z-index: 2000;
   }
   
@@ -114,7 +121,7 @@ html{
     position: absolute; top: 0;
     right: 0;
     display: none;
-    background: #eee;
+    background:#ffffff;
     /* transform: translateX(55rem); */
     flex-direction: column;
     align-items: center;
@@ -170,7 +177,7 @@ html{
    .hero-clipped{
     width: 60%;
     height: inherit;
-    background: #eee;
+    background: #ffffff;
     position: absolute;
     top: 0;
     clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
@@ -258,6 +265,9 @@ html{
     .sub-heading{
       font-size: 1.2rem;
     }
+    .slogo{
+      width: 11rem;
+    }
     .cta-btn{
       padding: 1rem 2.5rem;
     }
@@ -266,6 +276,9 @@ html{
   @media screen and (max-width: 550px){
     .main-heading{
       font-size: 2.5rem;
+    }
+    .slogo{
+      width: 11rem;
     }
     .sub-heading{
       font-size: 1rem;

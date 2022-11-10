@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/Contact.css";
-
+// pending work probably doing after jan
 
 function Contact() {
   return (

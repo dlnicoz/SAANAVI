@@ -2,11 +2,12 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Gallery from "./components/Gallery";
 import Home from "./components/Home";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Booking from './components/Booking';
 import Rooms from './components/Rooms';
 import Contact from './components/Contact';
+import Services from './components/Services';
 function App() {
   return (
     <>
@@ -18,9 +19,10 @@ function App() {
           <Route path="/Booking" element={<Booking />} />
           <Route path="/Rooms" element={<Rooms />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Services" element={<Services />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

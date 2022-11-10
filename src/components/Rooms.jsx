@@ -35,6 +35,7 @@ function Rooms() {
                   </li>
                 </ul>
                 <Link to="/Contact" style={{ textDecoration: "none" }}>
+                  
                   <button className="card__btn">
                     Book Now <span>&rarr;</span>
                   </button>

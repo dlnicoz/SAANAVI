@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../css/Navbar.css";
 import { gsap } from "gsap";
 import { useEffect } from "react";
+import logo  from "./images/2.png";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -38,31 +39,37 @@ function Navbar() {
   function buttonClicked() {
     setMenuOpen(!menuOpen);
   }
+  function buttonClosed() {
+    setMenuOpen(false);
+    
+  }
   // style={{display:disFlex}}
   return (
     <>
       <header>
         <nav className={`${menuOpen ? "main-nav open" : "main-nav"}`}>
           <div className="logo">
-            <Link to="/">Saanvi Hotel</Link>
+          <Link to="/">
+            <img className="slogo" src={logo} alt="saanvi logo" />
+            </Link>
           </div>
           <div onClick={buttonClicked} className="hamburger-menu">
             <span className="bar"></span>
           </div>
           <ul className="nav-list">
-            <li className="nav-item">
+            <li className="nav-item" onClick={buttonClosed}>
               <Link to="/" className="nav-link">
                 Home
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" onClick={buttonClosed}>
               <Link to="#" className="nav-link">
                 Tours
               </Link>
             </li>
-            <li className="nav-item">
-              <Link to="/Gallery" className="nav-link">
-                Gallery
+            <li className="nav-item" onClick={buttonClosed}>
+              <Link to="/Services" className="nav-link">
+                Services
               </Link>
             </li>
             {/* <li className="nav-item">
@@ -70,12 +77,12 @@ function Navbar() {
                 Booking
               </Link>
             </li> */}
-            <li className="nav-item">
+            <li className="nav-item"onClick={buttonClosed}>
               <Link to="/Rooms" className="nav-link">
                 Rooms
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" onClick={buttonClosed}>
               <Link to="/Contact" className="nav-link">
                 Contact
               </Link>

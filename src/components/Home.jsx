@@ -1,5 +1,6 @@
 import React from "react";
 import HomeImage from "./HomeImage"; 
+import { Link } from 'react-router-dom';
 function Home() {
   return (
     <>
@@ -10,9 +11,9 @@ function Home() {
             <h2 className="sub-heading">
               Learn about our new tourist attractions!
             </h2>
-            <a href="" className="cta-btn">
+            <Link to="/Services" className="cta-btn">
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
       </section>
