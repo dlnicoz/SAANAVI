@@ -1,42 +1,176 @@
 import React from "react";
 import "../css/Gallery.css";
-
+import s1 from "./images/gallery/s1.jpg";
+import s2 from "./images/gallery/s2.jpg";
+import s3 from "./images/gallery/s3.jpg";
+import s4 from "./images/gallery/s4.jpg";
+import s5 from "./images/gallery/s5.jpg";
+import s6 from "./images/gallery/s6.jpg";
+import s7 from "./images/gallery/s7.jpg";
+import s8 from "./images/gallery/s8.jpg";
+import s9 from "./images/gallery/s9.jpg";
+import s10 from "./images/gallery/s10.jpg";
+import s11 from "./images/gallery/s11.jpg";
+import s12 from "./images/gallery/s12.jpg";
+import s13 from "./images/gallery/s13.jpg";
+import s14 from "./images/gallery/s14.jpg";
+import s15 from "./images/gallery/s15.jpg";
+import s16 from "./images/gallery/s16.jpg";
+import s17 from "./images/gallery/s17.jpg";
+import s18 from "./images/gallery/s18.jpg";
+import s19 from "./images/gallery/s19.jpg";
+import s20 from "./images/gallery/s20.jpg";
+import s21 from "./images/gallery/s21.jpg";
+import s22 from "./images/gallery/s22.jpg";
+import s23 from "./images/gallery/s23.jpg";
+import s24 from "./images/gallery/s24.jpg";
+import s25 from "./images/gallery/s25.jpg";
+import s26 from "./images/gallery/s26.jpg";
+import s27 from "./images/gallery/s27.jpg";
+import s28 from "./images/gallery/s28.jpg";
+import s29 from "./images/gallery/s29.jpg";
+import s30 from "./images/gallery/s30.jpg";
+import s31 from "./images/gallery/s31.jpg";
+import s32 from "./images/gallery/s32.jpg";
+import s33 from "./images/gallery/s33.jpg";
+import s34 from "./images/gallery/s34.jpg";
+import s35 from "./images/gallery/s35.jpg";
+import s36 from "./images/gallery/s36.jpg";
+import s37 from "./images/gallery/s37.jpg";
+import s38 from "./images/gallery/s38.jpg";
+import s39 from "./images/gallery/s39.jpg";
+import s40 from "./images/gallery/s40.jpg";
 function Gallery() {
   return (
     <>
       <div className="igcontainer">
+        <h1 className="igheading">
+          Image Gallery of Saanvi <span></span>
+        </h1>
 
-<h1 className="heading">Image Gallery of Saanvi <span></span></h1>
-
-<div className="gallery">
-
-  <div className="gallery-item">
-    <img className="gallery-image" src="https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=500&h=500&fit=crop" alt=""/>
-  </div>
-
-  <div className="gallery-item">
-    <img className="gallery-image" src="https://images.unsplash.com/photo-1515260268569-9271009adfdb?w=500&h=500&fit=crop" alt=""/>
-  </div>
-
-  <div className="gallery-item">
-    <img className="gallery-image" src="https://images.unsplash.com/photo-1506045412240-22980140a405?w=500&h=500&fit=crop" alt=""/>
-  </div>
-
-  <div className="gallery-item">
-    <img className="gallery-image" src="https://images.unsplash.com/photo-1514041181368-bca62cceffcd?w=500&h=500&fit=crop" alt=""/>
-  </div>
-
-  <div className="gallery-item">
-    <img className="gallery-image" src="https://images.unsplash.com/photo-1445810694374-0a94739e4a03?w=500&h=500&fit=crop" alt=""/>
-  </div>
-
-  <div className="gallery-item">
-    <img className="gallery-image" src="https://images.unsplash.com/photo-1486334803289-1623f249dd1e?w=500&h=500&fit=crop" alt=""/>
-  </div>
-
-</div>
-
-</div>
+        <div className="gallery">
+          <div className="gallery-item">
+            <img className="gallery-image" src={s1} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s2} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s3} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s4} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s5} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s6} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s7} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s8} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s9} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s10} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s11} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s12} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s13} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s14} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s15} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s16} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s17} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s18} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s19} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s20} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s21} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s22} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s23} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s24} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s25} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s26} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s27} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s28} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s29} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s30} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s31} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s32} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s33} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s34} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s35} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s36} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s37} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s38} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s39} alt="" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s40} alt="" />
+          </div>
+        </div>
+      </div>
     </>
   );
 }

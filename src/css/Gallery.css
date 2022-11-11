@@ -12,7 +12,7 @@ Flexbox is used as a fallback so that browsers which don't support grid will sti
 
 :root {
 	/* Base font size */
-	font-size: 10px;
+	/* font-size: 10px; */
 }
 
 *,
@@ -27,20 +27,21 @@ Flexbox is used as a fallback so that browsers which don't support grid will sti
 } */
 
 .igcontainer {
-	max-width: 100rem;
+	max-width: 150rem;
 	margin: 0 auto;
     min-height: 100vh;
 	background-color: #ffffff;
 	padding: 0 2rem 2rem;
 }
 
-.heading {
-	/* font-family: "Montserrat", Arial, sans-serif; */
-	font-size: 4rem;
+.igheading {
+	font-family: 'Lato', sans-serif;
+	font-size: 2.5rem;
 	font-weight: 500;
 	line-height: 1.5;
 	text-align: center;
-	padding: 3.5rem 0;
+	/* padding: 3.5rem 0; */
+	padding: 8rem 3.5rem 3.5rem 3.5rem;
 	color: #1a1a1a;
 }
 
