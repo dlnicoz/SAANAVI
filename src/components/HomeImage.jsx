@@ -9,7 +9,7 @@ function HomeImage() {
 
     return (<>
 
-<div className="first-wrap">
+<div className="first-wrap" loading="lazy">
   <div className="first-div">
     <div className="first-inner-div">
       <p>Start Your Adventure now</p>
@@ -18,7 +18,7 @@ function HomeImage() {
   </div>
 </div>
 
-<div className="second-wrap">
+<div className="second-wrap" loading="lazy">
   <div className="second-div" id="anchor">
     <p className="body-text">
       <span className="line-separator"></span>Shells sink, dreams float Life`s good on our boat
@@ -29,7 +29,7 @@ function HomeImage() {
   </div>
 </div>
 
-<div className="third-wrap">
+<div className="third-wrap" loading="lazy">
   <div className="fourth-div">
     <p className="body-text">
       <span className="line-separator"></span>Light a campfire and everyone’s a storyteller
