@@ -63,8 +63,8 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item" onClick={buttonClosed}>
-              <Link to="#" className="nav-link">
-                Tours
+              <Link to="/Gallery" className="nav-link">
+                Gallery
               </Link>
             </li>
             <li className="nav-item" onClick={buttonClosed}>
