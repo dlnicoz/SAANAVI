@@ -40,14 +40,20 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.contact-div .contact-inner-div .p3 {
+.contact-div .contact-inner-div .link .p3 {
     padding: 20px;
-    font-size: 10px;
+    font-size: 70px;
     letter-spacing: 0.45em;
     text-transform: uppercase;
     background-color: rgba(0, 0, 0, 0.3);
   }
 
+  
+  .link{
+    
+    text-decoration: none;
+    text-decoration-color: #25d366;
+  }
 
 .whatsapp {
     position:fixed;
