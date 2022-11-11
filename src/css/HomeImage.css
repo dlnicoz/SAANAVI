@@ -1,6 +1,7 @@
 /* Hides the horizontal overflow */
 body {
   overflow-x: hidden;
+  /* overflow-y: hidden; */
 }
 /* Resize in Mobile View */
 @media (min-width: 0) and (max-width: 767px) {

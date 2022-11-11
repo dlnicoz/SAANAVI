@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Contact.css";
+import ww from "./images/www.svg"
 // pending work probably doing after jan
 
 
@@ -19,7 +20,7 @@ function Contact() {
         href="https://api.whatsapp.com/send?phone=919420030574"
         className="whatsapp" target="_blank" rel="noreferrer noopener"
       >
-        <i className="fa fa-whatsapp whatsapp-icon"></i>
+        <img className="whatsapp-icon" src={ww}></img>
       </a>
     </>
   );

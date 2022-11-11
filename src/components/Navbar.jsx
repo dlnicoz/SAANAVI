@@ -4,13 +4,18 @@ import "../css/Navbar.css";
 import { gsap } from "gsap";
 import { useEffect } from "react";
 import logo  from "./images/2.png";
+import { useRef } from "react";
 
 function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(true);
   // const disFlex = menuOpen ? "flex" : "none";
+  const ham = useRef();
+  const mnav = useRef();
   useEffect(() => {
-    const mainNav = document.querySelector(".main-nav");
-    const hamburgerMenu = document.querySelector(".hamburger-menu");
+    // const mainNav = document.querySelector(".main-nav");
+    const mainNav = mnav.current;
+    // const hamburgerMenu = document.querySelector(".hamburger-menu");
+    const hamburgerMenu = ham.current;
     //Runs on every render
     hamburgerMenu.addEventListener("click", function () {
       mainNav.classList.toggle("open");
@@ -35,6 +40,7 @@ function Navbar() {
       { yPercent: 38, opacity: 0 },
       { duration: 2, delay: 1.3, yPercent: -50, opacity: 1 }
     );
+    // window.onload(setMenuOpen(false));
   }, []);
   function buttonClicked() {
     setMenuOpen(!menuOpen);
@@ -47,13 +53,13 @@ function Navbar() {
   return (
     <>
       <header>
-        <nav className={`${menuOpen ? "main-nav open" : "main-nav"}`}>
-          <div className="logo">
+        <nav className={`${menuOpen ? "main-nav open" : "main-nav"}`} ref={mnav}>
+          <div className="logo" >
           <Link to="/">
-            <img className="slogo" src={logo} alt="saanvi logo" />
+            <img className="slogo" src={logo} alt="saanvi logo" onLoad={()=> setMenuOpen(false)} />
             </Link>
           </div>
-          <div onClick={buttonClicked} className="hamburger-menu">
+          <div onClick={buttonClicked} className="hamburger-menu" ref={ham}>
             <span className="bar"></span>
           </div>
           <ul className="nav-list">
