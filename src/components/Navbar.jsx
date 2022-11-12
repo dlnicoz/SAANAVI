@@ -7,7 +7,7 @@ import logo  from "./images/2.png";
 import { useRef } from "react";
 
 function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(true);
+  const [menuOpen, setMenuOpen] = useState(false);
   // const disFlex = menuOpen ? "flex" : "none";
   const ham = useRef();
   const mnav = useRef();
@@ -56,7 +56,8 @@ function Navbar() {
         <nav className={`${menuOpen ? "main-nav open" : "main-nav"}`} ref={mnav}>
           <div className="logo" >
           <Link to="/">
-            <img className="slogo" src={logo} alt="saanvi logo" onLoad={()=> setMenuOpen(false)} />
+            <img className="slogo" src={logo} alt="saanvi logo"  />
+            {/* onLoad={()=> setMenuOpen(false)} */}
             </Link>
           </div>
           <div onClick={buttonClicked} className="hamburger-menu" ref={ham}>
