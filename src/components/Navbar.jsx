@@ -23,11 +23,11 @@ function Navbar() {
 
     gsap.fromTo(".hero-clipped", { scaleX: 0 }, { duration: 1, scaleX: 1 });
 
-    // gsap.fromTo(
-    //   ".logo",
-    //   { x: -202, opacity: 0 },
-    //   { duration: 1, delay: 0.5, x: 0, opacity: 1 }
-    // );
+    gsap.fromTo(
+      ".logo",
+      { x: -202, opacity: 0 },
+      { duration: 1, delay: 0.5, x: 0, opacity: 1 }
+    );
 
     // gsap.fromTo(
     //   ".hamburger-menu",
