@@ -12,6 +12,8 @@ body {
   .down-arrow {
     font-size: 20px ;
   }
+
+  
 }
 /* Resize in Tablet View */
 @media (min-width: 768px) and (max-width: 991px) {
@@ -41,7 +43,7 @@ body {
     background: url(../components/images/saanvi.jpg) no-repeat fixed;
   
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 80% 30%;
 }
 /* Second Wrap Background */
 .second-wrap {
@@ -51,7 +53,7 @@ body {
    */
    background: url(../components/images/boat.jpg) no-repeat fixed;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 70% 50%;
 }
 /* Third Wrap Background */
 .third-wrap {

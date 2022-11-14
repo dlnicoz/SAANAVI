@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <>
-      <section className="hero section1">
+      <section className="hero section1" loading="lazy">
         <div className="hero-clipped" > 
           <div className="hero-textbox">
             <h1 className="main-heading">Saanvi Hotel</h1>

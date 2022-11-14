@@ -274,6 +274,11 @@ header {
   .main-heading {
     font-size: 2.5rem;
   }
+.hero{
+  background-size: cover;
+  background-position: 50% 70% ;
+}
+
   .slogo {
     width: 11rem;
   }
