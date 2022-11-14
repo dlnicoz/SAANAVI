@@ -4,6 +4,7 @@ import nilesh from "./images/nilesh.jpg";
 // pending work probably doing after jan
 
 function Contact() {
+
   return (
     <>
       <div className="ccontainer">
@@ -53,6 +54,10 @@ function Contact() {
           <img className="nileshimg" src={nilesh} alt="nilesh kadam" />
         </div>
       </div>
+
+      <section className="ccsection">
+      <iframe className="cciframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d485081.74984482885!2d73.88822226219463!3d18.223651088450342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc26b8953a05d4f%3A0x42865377c4183713!2sHotel%20Saanvi%20(Apti)!5e0!3m2!1sen!2sin!4v1668441656798!5m2!1sen!2sin"style={{border:0 , allowFullScreen:"" , loading:"lazy"}}  referrerPolicy="no-referrer-when-downgrade"></iframe>
+      </section>
     </>
   );
 }
