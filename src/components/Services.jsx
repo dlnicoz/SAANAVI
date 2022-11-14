@@ -69,7 +69,7 @@ function Services() {
           <ul className="cards__items">
             <CardItem
               src={img8}
-              text="Playing carromo with your crush is like loosing the red Queen knowingly to win your queen. "
+              text="Playing carrom with your crush is like loosing the red Queen knowingly to win your queen. "
               label="Carrom"
               path="/sign-up"
             />
