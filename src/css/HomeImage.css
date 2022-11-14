@@ -7,20 +7,20 @@ body {
 @media (min-width: 0) and (max-width: 767px) {
   p,
   .body-text {
-    font-size: 10px !important;
+    font-size: 10px t;
   }
   .down-arrow {
-    font-size: 20px !important;
+    font-size: 20px ;
   }
 }
 /* Resize in Tablet View */
 @media (min-width: 768px) and (max-width: 991px) {
   p,
   .body-text {
-    font-size: 15px !important;
+    font-size: 15px ;
   }
   .down-arrow {
-    font-size: 30px !important;
+    font-size: 30px ;
   }
 }
 /* Line Separators CSS */
