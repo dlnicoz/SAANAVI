@@ -16,34 +16,32 @@ function Contact() {
           </p>
           </div>
           <div className="top2">
-          <a className="link" href="tel:+919420030574">
+          <a className="link" href="tel:+919420030574" target="_blank" rel="noreferrer">
             <p className="p3">contact me here</p></a>
-            
-            <button
+            <a className="link" href="https://api.whatsapp.com/send?phone=919420030574" target="_blank" rel="noreferrer">  <button
               className="sharer"
               data-sharer="whatsapp"
               data-title="Merida Design Blog"
               data-url="https://api.whatsapp.com/send?phone=919420030574"
+              // onClick="https://api.whatsapp.com/send?phone=919420030574"
             >
               {/* <i className="fa fa-whatsapp"></i> */}
               WhatsApp
             </button>
-            <button
+            </a>
+           
+            <a className="link" href="tel:+919420030574" target="_blank" rel="noreferrer"> <button
               className="sharer"
               data-sharer="phone"
               data-title="Merida Design Blog"
               data-url="tel:+919420030574"
+              // onClick="tel:+919420030574"
             >
               {/* <i className="fa fa-phone"></i> */}
               Phone
             </button>
-          
-          
+            </a>
           </div>
-         
-
-         
-
           {/* <a
             href="https://api.whatsapp.com/send?phone=919420030574"
             className="whatsapp"
