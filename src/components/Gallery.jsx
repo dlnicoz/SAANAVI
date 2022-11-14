@@ -1,5 +1,10 @@
 import React from "react";
 import "../css/Gallery.css";
+import s41 from "./images/gallery/s41.jpg";
+import s42 from "./images/gallery/s42.jpg";
+import s43 from "./images/gallery/s43.jpg";
+import s44 from "./images/gallery/s44.jpg";
+import s45 from "./images/gallery/s45.jpg";
 import s1 from "./images/gallery/s1.jpg";
 import s2 from "./images/gallery/s2.jpg";
 import s3 from "./images/gallery/s3.jpg";
@@ -49,125 +54,137 @@ function Gallery() {
         </h1>
 
         <div className="gallery">
-          <div className="gallery-item">
-            <img className="gallery-image" src={s1} alt="" loading="lazy"/>
+        <div className="gallery-item">
+            <img className="gallery-image" src={s45} alt="" loading="lazy" />
+          </div><div className="gallery-item">
+            <img className="gallery-image" src={s44} alt="" loading="lazy" />
+          </div><div className="gallery-item">
+            <img className="gallery-image" src={s43} alt="" loading="lazy" />
+          </div><div className="gallery-item">
+            <img className="gallery-image" src={s42} alt="" loading="lazy" />
+          </div>
+        <div className="gallery-item">
+            <img className="gallery-image" src={s41} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s2} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s1} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s3} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s2} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s4} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s3} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s5} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s4} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s6} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s5} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s7} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s6} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s8} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s7} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s9} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s8} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s10} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s9} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s11} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s10} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s12} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s11} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s13} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s12} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s14} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s13} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s15} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s14} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s16} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s15} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s17} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s16} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s18} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s17} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s19} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s18} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s20} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s19} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s21} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s20} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s22} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s21} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s23} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s22} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s24} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s23} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s25} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s24} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s26} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s25} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s27} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s26} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s28} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s27} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s29} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s28} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s30} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s29} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s31} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s30} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s32} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s31} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s33} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s32} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s34} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s33} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s35} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s34} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s36} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s35} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s37} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s36} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s38} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s37} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s39} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s38} alt="" loading="lazy" />
           </div>
           <div className="gallery-item">
-            <img className="gallery-image" src={s40} alt="" loading="lazy"/>
+            <img className="gallery-image" src={s39} alt="" loading="lazy" />
+          </div>
+          <div className="gallery-item">
+            <img className="gallery-image" src={s40} alt="" loading="lazy" />
           </div>
         </div>
       </div>

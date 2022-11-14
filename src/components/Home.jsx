@@ -1,7 +1,7 @@
 import React from "react";
 import HomeImage from "./HomeImage"; 
 import { Link } from 'react-router-dom';
-import Maps from "./Maps"
+
 function Home() {
   return (
     <>
@@ -19,7 +19,7 @@ function Home() {
         </div>
       </section>
       <HomeImage />
-      <Maps/>
+      
     </>
   );
 }
