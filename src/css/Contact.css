@@ -14,11 +14,11 @@
 
 @media (max-width: 60em) {
   .ccontainer {
-    width: 43rem;
+    width: 41rem;
     height: auto;
   }
   .top2 {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   em {

@@ -3,7 +3,7 @@ import "../css/Cards.css";
 import CardItem from "./CardItem";
 import img1 from "./images/scene.jpg";
 import img2 from "./images/boat.jpg";
-import img3 from "./images/shivmandir.jpg";
+import img3 from "./images/shivmandir2.jpg";
 import img4 from "./images/mountainsee.jpg";
 import img5 from "./images/lakeview.jpg";
 import img6 from "./images/gallery/s19.jpg";
