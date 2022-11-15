@@ -5,13 +5,13 @@ import hotel from "./images/gallery/saanvi.jpg"
 import hotelRoom from "./images/hotelroom.png"
 // import RoomsAdmin from "./RoomsAdmin";
 function Rooms() {
-  const room1Ava = "Availaibility-- Available now";
-  const room2Ava = "Availaibility-- Available now";
-  const room3Ava = "Availaibility-- Available now";
-  const room4Ava = "Availaibility-- Available now";
-  const room5Ava = "Availaibility-- Available now";
-  const room6Ava = "Availaibility-- Available now";
-  const room7Ava = "Availaibility-- Available now";
+  const room1Ava = "Availability-- Available now";
+  const room2Ava = "Availability-- Available now";
+  const room3Ava = "Availability-- Available now";
+  const room4Ava = "Availability-- Available now";
+  const room5Ava = "Availability-- Available now";
+  const room6Ava = "Availability-- Available now";
+  const room7Ava = "Availability-- Available now";
 
 
   return (
@@ -35,11 +35,11 @@ function Rooms() {
                     </li>
                     <li>
                     <p className="card__text">
-                      Price -- Per Person/day 1299 rs.
+                      Price -- Per Person/day <span id="price1">1299</span> rs.
                     </p>
                     </li><li>
                     <p className="card__text">
-                      Discount -- Avialable if more than 12 people are coming.
+                      Discount -- Available if more than 12 people are coming.
                     </p>
                   </li>
                  

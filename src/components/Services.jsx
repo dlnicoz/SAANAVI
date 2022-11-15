@@ -43,13 +43,13 @@ function Services() {
               src={img4}
               text="-- I-LAND Point"
               label="Trekking"
-              path="/products"
+              path="/services"
             />
             <CardItem
               src={img5}
               text="-- Front View From Rooms"
               label="Lake View"
-              path="/sign-up"
+              path="/services"
             />
           </ul>
           <ul className="cards__items">
@@ -57,13 +57,13 @@ function Services() {
               src={img6}
               text="And Into The Forest I Go, To Lose My Mind And Find My Soul."
               label="Camping"
-              path="/sign-up"
+              path="/services"
             />
             <CardItem
               src={img7}
               text="The bigger you build the bonfire, the more darkness is revealed."
               label="Born Fire"
-              path="/sign-up"
+              path="/services"
             />
           </ul>
           <ul className="cards__items">
@@ -71,19 +71,19 @@ function Services() {
               src={img8}
               text="Playing carrom with your crush is like loosing the red Queen knowingly to win your queen. "
               label="Carrom"
-              path="/sign-up"
+              path="/services"
             />
             <CardItem
               src={img9}
               text="The goal of life is living in agreement with nature"
               label="Open Dine"
-              path="/sign-up"
+              path="/services"
             />
             <CardItem
               src={img10}
               text="Land was created to provide a place for boats to visit."
               label="Pendal Boating"
-              path="/sign-up"
+              path="/services"
             />
           </ul>
         </div>
