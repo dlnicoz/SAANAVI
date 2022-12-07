@@ -2,11 +2,13 @@ import React from "react";
 import "../css/Contact.css";
 import nilesh from "./images/nilesh.jpg";
 // pending work probably doing after jan
+import Whatsapp from "./Whatsapp";
 
 function Contact() {
 
   return (
     <>
+    <Whatsapp/>
       <div className="ccontainer">
         <div className="cinfo">
           <div className="top1">

@@ -45,9 +45,11 @@ import s37 from "./images/gallery/s37.jpg";
 import s38 from "./images/gallery/s38.jpg";
 import s39 from "./images/gallery/s39.jpg";
 import s40 from "./images/gallery/s40.jpg";
+import Whatsapp from "./Whatsapp"
 function Gallery() {
   return (
     <>
+    <Whatsapp/>
       <div className="igcontainer">
         <h1 className="igheading">
           Image Gallery of Saanvi <span></span>

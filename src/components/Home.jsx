@@ -1,6 +1,7 @@
 import React from "react";
 import HomeImage from "./HomeImage"; 
 import { Link } from 'react-router-dom';
+import Whatsapp from "./Whatsapp";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
             </Link>
           </div>
         </div>
+        <Whatsapp></Whatsapp>
       </section>
       <HomeImage />
       

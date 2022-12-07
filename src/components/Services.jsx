@@ -11,9 +11,12 @@ import img7 from "./images/gallery/s16.jpg";
 import img8 from "./images/carrom.jpg";
 import img9 from "./images/gallery/s35.jpg";
 import img10 from "./images/gallery/s40.jpg";
+import Whatsapp from "./Whatsapp"
 
 function Services() {
-  return (
+  return (<>
+  
+    <Whatsapp/>
     <div className="cards">
       <h1>Check out these EPIC Services!</h1>
       <div className="cards__container">
@@ -89,6 +92,7 @@ function Services() {
         </div>
       </div>
     </div>
+    </>
   );
 }
 

@@ -3,6 +3,7 @@ import "../css/Rooms.css";
 import { Link } from "react-router-dom";
 import hotel from "./images/gallery/saanvi.jpg"
 import hotelRoom from "./images/hotelroom.png"
+import Whatsapp from "./Whatsapp"
 // import RoomsAdmin from "./RoomsAdmin";
 function Rooms() {
   const room1Ava = "Availability-- Available now";
@@ -16,6 +17,7 @@ function Rooms() {
 
   return (
     <>
+<Whatsapp/>
       <div className="Rooms">
         <div className="grid">
         <div className="grid__item">
