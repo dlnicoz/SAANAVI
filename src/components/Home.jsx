@@ -2,6 +2,7 @@ import React from "react";
 import HomeImage from "./HomeImage"; 
 import { Link } from 'react-router-dom';
 import Whatsapp from "./Whatsapp";
+import Pricing from "./Pricing";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
           </div>
         </div>
         <Whatsapp></Whatsapp>
+        <Pricing></Pricing>
       </section>
       <HomeImage />
       
