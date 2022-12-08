@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Booking from './components/Booking';
 import Rooms from './components/Rooms';
-import Contact from './components/Contact';
+import Contact from './components/Contact1';
 import Services from './components/Services';
 function App() {
   return (
