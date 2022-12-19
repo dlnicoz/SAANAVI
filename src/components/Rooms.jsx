@@ -2,7 +2,14 @@ import React from "react";
 import "../css/Rooms.css";
 import { Link } from "react-router-dom";
 import hotel from "./images/gallery/saanvi.jpg"
-import hotelRoom from "./images/hotelroom.png"
+import hotelRoom7 from "./images/gallery/b32.jpg"
+import hotelRoom1 from "./images/gallery/b43.jpg"
+import hotelRoom2 from "./images/gallery/b44.jpg"
+import hotelRoom3 from "./images/gallery/b42.jpg"
+import hotelRoom4 from "./images/gallery/b29.jpg"
+import hotelRoom5 from "./images/gallery/b28.jpg"
+import hotelRoom6 from "./images/gallery/b33.jpg"
+
 import Whatsapp from "./Whatsapp"
 // import RoomsAdmin from "./RoomsAdmin";
 function Rooms() {
@@ -59,7 +66,7 @@ function Rooms() {
             <div className="card">
               <img
                 className="card__img"
-                src={hotelRoom}
+                src={hotelRoom1}
                 alt="Snowy Mountains"
               />
               <div className="card__content">
@@ -88,7 +95,7 @@ function Rooms() {
             <div className="card">
               <img
                 className="card__img"
-                src={hotelRoom}
+                src={hotelRoom2}
               />
               <div className="card__content">
                 <h1 className="card__header">Room 2</h1>
@@ -114,7 +121,7 @@ function Rooms() {
             <div className="card">
               <img
                 className="card__img"
-                src={hotelRoom}
+                src={hotelRoom3}
               />
               <div className="card__content">
                 <h1 className="card__header">Rooms 3</h1>
@@ -140,7 +147,7 @@ function Rooms() {
             <div className="card">
               <img
                 className="card__img"
-                src={hotelRoom}
+                src={hotelRoom4}
               />
               <div className="card__content">
                 <h1 className="card__header">Room 4</h1>
@@ -166,7 +173,7 @@ function Rooms() {
             <div className="card">
               <img
                 className="card__img"
-                src={hotelRoom}
+                src={hotelRoom5}
               />
               <div className="card__content">
                 <h1 className="card__header">Room 5</h1>
@@ -192,7 +199,7 @@ function Rooms() {
             <div className="card">
               <img
                 className="card__img"
-                src={hotelRoom}
+                src={hotelRoom6}
               />
               <div className="card__content">
                 <h1 className="card__header">Room 6</h1>
@@ -218,7 +225,7 @@ function Rooms() {
             <div className="card">
               <img
                 className="card__img"
-                src={hotelRoom}
+                src={hotelRoom7}
               />
               <div className="card__content">
                 <h1 className="card__header">Room 7</h1>

@@ -1,6 +1,6 @@
 import React from "react";
 import "../css/HomeImage.css";
-import Hotelvideo from "../components/images/boat.jpg";
+import Hotelvideo from "../components/images/hotelvideo.mp4";
 
 function HomeImage() {
   return (
