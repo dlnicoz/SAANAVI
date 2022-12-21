@@ -6,15 +6,9 @@ function HomeImage() {
   return (
     <>
       <div className="first-wrap" loading="lazy">
-        <video
-          src={Hotelvideo}
-          type="video/mp4"
-          autoPlay
-          muted
-          loop
-          className="hotelvideo"
-          controls
-        ></video>
+        <video autoPlay muted loop className="hotelvideo" controls>
+          <source src={Hotelvideo} type="video/mp4" />
+        </video>
       </div>
       <div className="first-wrap" loading="lazy">
         <div className="first-div">
