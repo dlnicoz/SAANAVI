@@ -10,12 +10,12 @@ function Home() {
       <section className="hero section1" loading="lazy">
         <div className="hero-clipped" > 
           <div className="hero-textbox">
-            <h1 className="main-heading">Saanvi Hotel</h1>
+            <h1 className="main-heading">Hotel Saanvi</h1>
             <h2 className="sub-heading">
-              Learn about our new tourist attractions!
+              Hotel Saanvi Agro Tourism ,<br></br> Learn about our new tourist attractions!
             </h2>
-            <Link to="/Services" className="cta-btn">
-              Learn More
+            <Link to="/Services" className="cta-btn" >
+              Show about Services
             </Link>
           </div>
         </div>

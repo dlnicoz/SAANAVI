@@ -56,7 +56,7 @@ function Navbar() {
         <nav className={`${menuOpen ? "main-nav open" : "main-nav"}`} ref={mnav}>
           <div className="logo" >
           <Link to="/">
-            <img className="slogo" src={logo} alt="saanvi logo"  />
+            <img className="slogo" src={logo} alt="Hotel Saanvi logo"  />
             {/* onLoad={()=> setMenuOpen(false)} */}
             </Link>
           </div>

@@ -97,7 +97,7 @@ function Gallery() {
       <Whatsapp />
       <div className="igcontainer">
         <h1 className="igheading">
-          Image Gallery of Saanvi <span></span>
+          Image Gallery of Hotel Saanvi <span></span>
         </h1>
 
         <div className="gallery">

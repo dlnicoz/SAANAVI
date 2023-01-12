@@ -35,7 +35,7 @@ function Rooms() {
                 src={hotel}
               />
               <div className="card__content">
-                <h1 className="card__header">Saanvi Hotel</h1>
+                <h1 className="card__header"> Hotel Saanvi</h1>
                 <ul>
                   <li>
                     <p className="card__text">

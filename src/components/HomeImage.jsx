@@ -13,7 +13,7 @@ function HomeImage() {
       <div className="first-wrap" loading="lazy">
         <div className="first-div">
           <div className="first-inner-div">
-            <p>Start Your Adventure now</p>
+            <p>Start Your Adventure In Hotel Saanvi</p>
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@ function HomeImage() {
         <div className="second-div" id="anchor">
           <p className="body-text">
             <span className="line-separator"></span>Shells sink, dreams float
-            Life`s good on our boat
+            Life`s good on our boat.
             <span className="line-separator"></span>
           </p>
         </div>
@@ -33,7 +33,7 @@ function HomeImage() {
         <div className="fourth-div">
           <p className="body-text">
             <span className="line-separator"></span>Light a campfire and
-            everyone’s a storyteller
+            everyones a storyteller.
             <span className="line-separator"></span>
           </p>
         </div>

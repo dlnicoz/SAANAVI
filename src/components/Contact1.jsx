@@ -12,7 +12,7 @@ function Contact1() {
           <div className="cinfo">
             <div className="top1">
               <h1 className="ch1">Nilesh kadam</h1>
-              <h2 className="ch2">owner of saanvi hotel</h2>
+              <h2 className="ch2">owner of Hotel Saanvi</h2>
               <p className="cspan">
                 <em> "Go to nature to get your stolen soul back"</em>
               </p>
