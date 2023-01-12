@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /blog
 Allow: /cv
+
+Sitemap: https://hotelsaanviagrotourism.com/sitemap.xml
