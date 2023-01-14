@@ -1,12 +1,13 @@
 import React from "react";
 import "../css/HomeImage.css";
 import Hotelvideo from "../components/images/hotelvideo.mp4";
+import poster from "../components/images/poster.png";
 
 function HomeImage() {
   return (
     <>
       <div className="first-wrap" loading="lazy">
-        <video autoPlay muted loop className="hotelvideo" controls>
+        <video autoPlay muted loop className="hotelvideo" controls poster={poster}>
           <source src={Hotelvideo} type="video/mp4" />
         </video>
       </div>
