@@ -6,7 +6,7 @@ import poster from "../components/images/poster.png";
 function HomeImage() {
   return (
     <>
-      <div className="first-wrap" loading="lazy">
+      <div className="first-wrap" >
         <video autoPlay muted loop className="hotelvideo" controls poster={poster}>
           <source src={Hotelvideo} type="video/mp4" />
         </video>
